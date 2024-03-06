@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.a{
+    text-decoration: none;
+    color: aqua;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    position: relative;
+}
+.a::after{
+    content: "";
+    width: 0;
+    height: 4px;
+    background-color: cadetblue;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transition: all .5s;
+    will-change: width;
+}
+.a:hover::after{
+    width: 100%;
+    right: 0;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background: red;
+    border: black 5px groove;
+    box-shadow: -7px 9px 30px black;
+    margin:100px;
+    padding: 50px;
+
+}
+#a{
+    background: blue;
+    border-style: dashed;
+    margin: 25px;
+}
+.b{
+    background: green;
+    border-style: dotted;
+    margin: 50px;
+
+}
+#c{
+    background-color: brown;
+    border-style: double;
+    margin: 75px;
+}
+#d{
+    background-color: aqua;
+    border-style: groove;
+    margin: 100px;
+}
+#e{
+    background-color: blueviolet;
+    border-style: hidden;
+    margin: 125px;
+}
+#f{
+    background-color: cadetblue;
+    border-style: inherit;
+    margin: 150px;
+}
+#g{
+    background-color: coral;
+    border-style: initial;
+    margin: 175px;
+}
+.h{
+    background-color: cyan;
+    border-style: outset;
+    margin: 200px;
+}
+.i{
+    background-color: darkgrey;
+    border-style: ridge;
+    margin: 225px;
+}
+.j{
+    background-color: crimson;
+    border-style: unset;
+    margin: 250px;
+}

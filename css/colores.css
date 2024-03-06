@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.a{
+    text-decoration: none;
+    color: aqua;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    position: relative;
+}
+.a::after{
+    content: "";
+    width: 0;
+    height: 4px;
+    background-color: cadetblue;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transition: all .5s;
+    will-change: width;
+}
+.a:hover::after{
+    width: 100%;
+    right: 0;
+}
+div{
+    width: 200px;
+    height: 200px;
+    border: black 5px groove;
+    margin:100px;
+    padding: 50px;
+}
+#a{
+    background: khaki;
+    box-shadow: -7px 9px 30px khaki;
+
+}
+#b{
+    background: #FCAB12;
+    box-shadow: -7px 9px 30px #FCAB12;
+}
+#c{
+    background: #ABC;
+    box-shadow: -7px 9px 30px #ABC;
+}
+#d{
+    background: rgb(0,100,90);
+    box-shadow: -7px 9px 30px rgb(0,100,90);
+}
+#e{
+   background: rgb(30%,20%,100%);
+   box-shadow: -7px 9px 30px rgb(30%,20%,100%);
+}
+#f{
+    background: rgba(10,20 ,50 ,0.5);
+    box-shadow: -7px 9px 30px rgba(10,20 ,50 ,0.5);
+ 
+}
+#g{
+    background: rgba(100%,10% ,0% ,1 );
+    box-shadow: -7px 9px 30px rgba(100%,10% ,0% ,1 );
+
+}
+#h{
+    background: linear-gradient(blue, pink);
+}
+#i{
+    background: linear-gradient(to right, blue, pink);
+
+}
+#j{
+    background: linear-gradient(to bottom left, blue, pink); 
+
+}
+#k{
+    background: radial-gradient(red, blue);
+
+}
+#l{
+    background-color: brown;
+    box-shadow: -7px 9px 30px brown;
+
+}
+#m{
+    background-color: hsl(0, 20%, 30%);
+    
+
+}
+#n{
+    background: hsl(300, 76%, 72%)
+
+}
+#o{
+    background-color:hsla(120,100%,50%,0.3);
+
+}
+#p{
+    background-color:hsla(199, 87%, 33%, 0.753);
+
+}
+#q{
+    background-color:hsla(273, 92%, 24%, 0.651);
+
+}

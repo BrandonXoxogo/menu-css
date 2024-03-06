@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.a{
+    text-decoration: none;
+    color: aqua;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    position: relative;
+}
+.a::after{
+    content: "";
+    width: 0;
+    height: 4px;
+    background-color: cadetblue;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transition: all .5s;
+    will-change: width;
+}
+.a:hover::after{
+    width: 100%;
+    right: 0;
+}
+img{
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border: 3px solid white;
+    border-radius: 50%;
+    transition: 3s all ease;
+}
+img:hover{
+    transition: 3s all ease;
+    transform: scale(1)  rotate(360deg);
+}
+#diferente{
+    background: yellow;
+}
+.blue{
+    background: blue;
+}
