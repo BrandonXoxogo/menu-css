@@ -1,0 +1,124 @@
+@font-face {
+    font-family: MadimiOne-Regular;
+    src: url(MadimiOne-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#color1{
+    color: rgb(43, 101, 226);
+}
+#color1:hover{
+    color: transparent;
+    background: linear-gradient(0deg,yellow 25%,red 50%,yellow 90%);
+    transition: 3s all ease;
+    transform: scale(1)  rotate(45deg);
+    background-clip: text;
+}
+#color2{
+    background: linear-gradient(blue,pink);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#famyli{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#famyli2{
+    font-family: MadimiOne-Regular;
+}
+#tamaño1{
+    font-size: 10px;
+}
+#tamaño2{
+    font-size: 0.3pt;
+}
+#style1{
+    font-style: normal;
+
+}
+#style2{
+    font-style: oblique;
+
+}
+#style3{
+    font-style: initial;
+
+}
+#a{
+    font-weight: bold;
+}
+#b{
+    font-weight: 600;
+}
+#c{
+    font-weight: lighter;
+}
+#d{
+    text-transform: uppercase;
+}
+#e{
+    text-transform: lowercase;
+
+}
+#f{
+    text-transform: capitalize;
+
+}
+#ab{
+    text-decoration: underline;
+
+}
+#cd{
+    text-decoration: line-through;
+
+}
+#ef{
+    text-decoration: none;
+
+}
+#gh{
+    text-decoration: overline;
+}
+#sombra{
+    text-shadow: 0 0 5px blue;
+}
+#sombra2{
+    text-shadow: -3px -3px 0px yellow;
+
+}
+#text{
+    text-align: center;
+    line-height: 1.0;
+}
+#text2{
+    text-align: left;
+    line-height: 2.0;
+
+}
+#text3{
+    text-align: right;
+    line-height: 3.0;
+
+}
+#text4{
+    text-align: justify;
+    line-height: 0.5;
+}
+#bran{
+    letter-spacing: 10px;
+
+}
+#bran2{
+    letter-spacing: 25px;
+
+}
+#bran3{
+    letter-spacing: 30px;
+
+}
+#bran4{
+    letter-spacing: 40px;
+
+}
