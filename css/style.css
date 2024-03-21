@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background: red;
+    border: black 5px groove;
+    box-shadow: -7px 9px 30px black;
+    margin: auto;
+    display: inline-block;
+
+}
+.relativo{
+    background: rgba(43, 22, 165, 0.7);
+    position: relative;
+    top: 100px;
+    left: 100px;
+
+}
+.b{
+    background: rgba(6, 71, 26, 0.7);
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+    
+}
+.c{
+    background: rgba(180, 63, 165, 0.7);
+    position: fixed;
+    bottom: 100px;
+    left: 100px;
+
+}
+.d{
+    background: rgba(24, 144, 165, 0.7);
+    position: static;
+    top: 100px;
+    right: 100px;
+}
+.e{
+    background: rgba(4, 8, 56, 0.7);
+    flex: content;
+    top: 100px;
+    right: 100px;
+
+}
